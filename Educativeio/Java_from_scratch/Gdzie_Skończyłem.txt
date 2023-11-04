@@ -1,0 +1,20 @@
+18.10
+
+Arrays:
+
+Zrobiłem challange 2 i 3 
+
+Jednak z odpowiedzi, samemu nie umiałem
+
+Czyli po prostu przeczytałem kod
+
+Zobaczyłem, że nie umiem challangu 4
+
+Nie chcę go przepisywać - poćwiczę więc najpierw Arrays na w3r
+
+
+26.10
+
+Zrobiłem challange z Classes
+
+Dalej są Generics i ArrayLists - nie umiem jeszcze
