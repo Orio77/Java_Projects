@@ -1,7 +1,5 @@
 package Easy;
 
-import java.util.Arrays;
-
 public class LongestCommonPrefix {
     public static String longestCommonPrefix(String[] strs) {
         
@@ -37,6 +35,9 @@ public class LongestCommonPrefix {
         String otherPrefix = "";
         String finalPrefix = "";
 
+        if (strs.length == 1 && strs[0].matches(""))
+            return "";
+
         for (int i = 0; i < elements; i++) {
             if (strs[i].length() < shortestElement.length())
                 shortestElement = strs[i];
@@ -50,20 +51,32 @@ public class LongestCommonPrefix {
         }
 
         for (int j = 0; j < elements; j++) {
-            for (int k = 1; k < shortestElement.length() && j < elements - 1; k++) {
-                prefix = strs[j].substring(0, k);
-                otherPrefix = strs[j + 1].substring(0, k);
 
-                if (prefix.matches(otherPrefix))
-                    finalPrefix = prefix;
-                else if (!prefix.matches(otherPrefix) && k == 1)
-                    finalPrefix = "";
+            if (elements == 1) {
+                for (int k = 1; k <= shortestElement.length(); k++) {
+                prefix = strs[j].substring(0, k);
+
+                finalPrefix = prefix;
+                allPrefixArray[j] = finalPrefix;
+                }
             }
+
+            else {
+                for (int k = 1; k <= shortestElement.length() && j < elements - 1; k++) {
+                    prefix = strs[j].substring(0, k);
+                    otherPrefix = strs[j + 1].substring(0, k);
+    
+                    if (prefix.matches(otherPrefix))
+                        finalPrefix = prefix;
+                    else if (!prefix.matches(otherPrefix) && k == 1)
+                        finalPrefix = "";
+                }
+            }
+
 
             if (j < elements - 1)
                 allPrefixArray[j] = finalPrefix;
         }
-        System.out.println(Arrays.toString(allPrefixArray));
 
         String shortestPrefix = allPrefixArray[0];
 
