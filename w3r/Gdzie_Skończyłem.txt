@@ -2,6 +2,6 @@ Arrays Ex 19 - utknąłem - 19 to 2dm array, 20 to ArrayList (02.11)
 
 Inheritance Ex 9 - nie zacząłem, nie przeczytałem (25.10)
 
-OOP Ex 5 - dokończyć, 6 nie zacząłem, nie przyczytałem (04.11)
+OOP Ex 6 - nie zacząłem, nie przyczytałem (14.11)
 
 Basic_1 - zrobiłem 44, stwierdziłem, że w tej kategorii jest wszystko i nic, idę programowac coś konkretnego (04.11)

@@ -1,12 +1,9 @@
 package OOP.Ex_5;
 
-import java.util.ArrayList;
-
 public class Book {
     private String title;
     private String author;
     private String ISBN;
-    private static ArrayList<Book> collection;
 
     public Book(String title, String author, String ISBN) {
         this.title = title;
@@ -14,17 +11,20 @@ public class Book {
         this.ISBN = ISBN;
     }
 
-    public static void createCollection(String name) {
-        collection = new ArrayList<>();
-        System.out.println("New collection created: " + name);
+    @Override
+    public String toString() {
+        return title;
     }
 
-    public void addBook(Book book) {
-        if (collection != null) {
-            collection.add(book);
-            System.out.println("Book added to collection: " + collection);
-        }
-        else 
-            System.out.println("Collection not created yet");
+    public String getTitle() {
+        return title;
+    }
+
+    public String getAuthor() {
+        return author;
+    }
+
+    public String getISBN() {
+        return ISBN;
     }
 }

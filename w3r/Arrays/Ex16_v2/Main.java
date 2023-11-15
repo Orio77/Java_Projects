@@ -1,4 +1,4 @@
-package Arrays.Ex16_v2;
+package Arrays.ex16_v2;
 
 public class Main {
     public static void main(String[] args) {

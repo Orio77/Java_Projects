@@ -1,0 +1,55 @@
+Project Title: Library Management System
+
+Project Description:
+
+You are to create a simple Library Management System for a small library. The system should be able to perform the following tasks:
+
+
+Add a new book:
+The librarian should be able to add a new book to the library's catalog.
+The system should prompt the librarian to enter the book's information, including Title, Author, ISBN (International Standard Book Number), and the initial Number of Copies.
+After inputting the information, the system should create a new Book object and add it to the library's collection of books.
+
+Remove a book:
+The librarian should have the capability to remove a book from the library's catalog using the ISBN as a unique identifier.
+The system should verify if a book with the provided ISBN exists in the catalog and remove it if found.
+
+Check out a book:
+Library members should be able to check out a book from the library by providing the book's ISBN.
+The system should check if the requested book is available (i.e., there are available copies). If so, it should mark the book as checked out to the requesting member.
+If the book is not available, the system should handle the situation appropriately with an exception.
+
+Return a book:
+Library members who have checked out a book should be able to return it by providing the book's ISBN.
+The system should check if the book was indeed checked out by the member, and if so, it should mark the book as returned.
+If the book was not checked out by the member, the system should raise an exception.
+
+Search for a book:
+Library members should be able to search for books in the library's catalog using either the book's title or the author's name.
+The system should perform a search and provide a list of books matching the search criteria, along with the number of available copies for each matching book.
+
+Save library state:
+The system should allow the librarian to save the current state of the library, including the catalog of books and their quantities, to a file.
+The file should be in a format that can be easily loaded later to restore the library's state.
+
+Load library state:
+The librarian or system administrator should be able to load a previously saved library state from a file.
+The system should read the file and reconstruct the library's catalog with the saved information.
+
+
+
+Project Requirements:
+
+Use OOP principles. For example, create classes for Library, Book, and Librarian.
+
+Use exception handling to manage errors such as trying to remove a book that doesn't exist or trying to check out a book that is not available.
+
+Use file handling to save and load the library state.
+
+Write unit tests for your methods.
+
+Document your code with comments.
+
+Use a consistent and readable coding style.
+
+Remember, the goal of this project is to help you master OOP, Exception Handling, and File Handling in Java. Good luck!

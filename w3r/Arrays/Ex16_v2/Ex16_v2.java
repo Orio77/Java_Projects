@@ -1,4 +1,4 @@
-package Arrays.Ex16_v2;
+package Arrays.ex16_v2;
 import java.util.Arrays;
 
 public class Ex16_v2 {

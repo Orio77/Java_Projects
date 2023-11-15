@@ -1,7 +1,7 @@
-package Arrays.Ex15;
+package Arrays.ex15;
 import java.util.*;
 
-public class Ex15 {
+public class ex15 {
     
     public static String commonIntegerFinder(int[] array_1, int[] array_2) {
 

@@ -1,4 +1,4 @@
-package Arrays.Ex17;
+package Arrays.ex17;
 import java.util.*;
 
 public class Arr_ex17 {

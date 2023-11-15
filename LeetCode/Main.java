@@ -1,8 +1,9 @@
-import Easy.LongestCommonPrefix;
+import Easy.MergeSortedArray;
 
 public class Main {
     public static void main(String[] args) {
-        String[] string1 = {"dog", "dom", "cat"};
-        System.out.println(LongestCommonPrefix.longestCommonPreffixV2(string1));
+        int[] nums1 = {1,2,3,0,0,0};
+        int[] nums2 = {2,5,6};
+        MergeSortedArray.merge(nums1, 3, nums2, 3);
     }
 }

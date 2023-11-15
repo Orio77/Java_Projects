@@ -1,4 +1,4 @@
-package Arrays.Ex14;
+package Arrays.ex14;
 
 public class Main {
     public static void main(String[] args) {

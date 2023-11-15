@@ -2,11 +2,23 @@ package OOP.Ex_5;
 
 public class Main {
     public static void main(String[] args) {
-        Book.createCollection("Fantasy");
 
-        Book tale = new Book("lol", "no", "woef");
+        Book tale = new Book("Narnia", "Saint Laurent", "36733");
+        Book book2 = new Book("Detective", "Stephen King", "26531");
+        Book book3 = new Book("Turtle King", "Luther Black", "43575");
 
-        tale.addBook(tale);
+        BookCollection collection = new BookCollection();
+
+        collection.addBook(collection.getCollection("fantasyCollection"), tale);
+        collection.addBook(collection.getCollection("dramaCollection"), book2);
+        collection.addBook(collection.getCollection("dramaCollection"), book3);
+
+        collection.printAll();
+
+        collection.removeBook(collection.getCollection("dramaCollection"), book2);
+
+        collection.printAll();
+
     }
 }
 

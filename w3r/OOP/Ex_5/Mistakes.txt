@@ -1,0 +1,21 @@
+
+
+Book.java
+Lack of Information in toString(): Your toString() method returns only the title. Imagine a book where the cover only had the title and nothing else – no author, no synopsis. That's your toString() method.
+
+
+Collection.java
+Terrible Naming Conventions: Collection as a class name? That's like naming your pet dog "Dog". It's way too generic. And what's with the fantasyCollection, scifiCollection as ArrayList<Object>? It's like using a shoebox to store everything from shoes to sandwiches.
+Type Safety Ignored: ArrayList<Object> for storing books? It's like putting socks and sandwiches in the same drawer. You should be using ArrayList<Book> for type safety.
+Redundant Collections: Having a separate collection for each genre is like having a different wallet for each type of bill. It's unnecessarily complicated. Ever heard of a Map<String, List<Book>>?
+
+
+Main.java
+Testing... Or Lack Thereof: This isn't so much testing as throwing code at the wall and seeing what sticks. There's no structure or meaningful validation of results.
+Unclear Method Calls: The way you're adding books to collections is as clear as mud. collection.getCollection("fantasyCollection")? It's like asking for directions and being told to turn north at the blue house.
+
+
+General Observations
+Encapsulation is a Myth Here: Your fields should be private with public getters and setters. Right now, it's like having a house with no doors - everything's just out there.
+Exception Handling is Non-Existent: Your code assumes everything will go as planned. That's like expecting to never hit a red light on your way to work.
+Documentation is a Foreign Concept: There are no comments or explanations. It's like you're writing a mystery novel, not a piece of code.
