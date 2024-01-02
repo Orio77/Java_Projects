@@ -10,17 +10,16 @@ public class MoveZeros {
         boolean swapped = false;
 
         for (int i = 0; i < array.length - 1; i++) {
-            for (int j = 0; j < array.length; j++) {
-                if(array[i] == 0) {
-                    saveElement = array[i + 1];
-                    array[i + 1] = array[i];
-                    array[i] = saveElement;
+            for (int j = 0; j < array.length - 1; j++) {
+                if(array[j] == 0 && array[j + 1] != 0) {
+                    saveElement = array[j + 1];
+                    array[j + 1] = array[j];
+                    array[j] = saveElement;
                     swapped = true;
                 }
-                if (swapped == false)
-                    break;
-                swapped = false;
             }
+            if (!swapped)
+                break;
         }
 
         System.out.println(Arrays.toString(array));

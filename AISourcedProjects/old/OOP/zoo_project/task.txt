@@ -1,0 +1,46 @@
+Exercise 1: Design a Java Class Hierarchy
+
+Imagine you are building a software for a zoo. Your task is to create a simple class hierarchy to represent different types of animals in the zoo. Here's what you need to do:
+
+Create an abstract class Animal with at least two properties (like name and age) and one method (makeSound()).
+Extend the Animal class to create two specific animal classes (e.g., Lion and Elephant). Override the makeSound() method in these classes to represent the sound that each animal makes.
+In each of these subclasses, add at least one unique property (e.g., maneLength for Lion).
+Write a small main method to demonstrate creating instances of these classes and calling their methods.
+
+#######################
+
+Next Exercise: Implement Interface and Abstract Methods
+
+To increase the difficulty while still focusing on OOP, let's move on to interfaces and abstract classes.
+
+Create an interface Carnivore with a method hunt(). Then, adjust your Lion class to implement this interface, providing an implementation of the hunt method demonstrating predatory behavior.
+
+Additionally, modify your abstract Animal class to include an abstract method eat(). Implement this method in your Lion and Elephant classes to reflect their dietary habits.
+
+Include error handling to deal with inappropriate actions (like calling hunt on an Elephant), demonstrating an understanding of exceptions.
+
+#######################
+
+Advanced Exercise: Implement Design Patterns in Your Zoo Application
+
+Implement the Composite Pattern:
+
+Create a class AnimalGroup that can contain several Animal objects and implement the same methods as Animal, such as makeSound() and eat(), but for the entire group.
+Utilize the Decorator Pattern:
+
+Develop a TaggedAnimal decorator that adds a tag to an Animal. This tag could include details like the date of last vaccination, the name of a zookeeper responsible for the animal, etc. It should wrap an Animal instance and add tagging behavior without altering the original Animal class structure.
+Apply the Factory Method Pattern:
+
+Create a ZooAnimalFactory with a method createAnimal(String type) that produces instances of different animals based on the type provided (like "Lion" or "Elephant").
+Integrate the Observer Pattern:
+
+Implement a ZooAnnouncementSystem that observes changes in animal states (like feeding times, rest times, etc.) and announces them to the zoo visitors. The animals would be the subjects, and the announcement system would be the observer.
+Employ the State Pattern:
+
+Develop a HealthState class hierarchy to represent the health status of the animals (e.g., HealthyState, SickState, SleepingState). The Animal class should have a HealthState that can change based on certain actions (like eating something bad leading to a SickState).
+Use the Chain of Responsibility Pattern:
+
+Create a FeedingResponsibilityChain where different staff members are responsible for feeding different types of food. For example, a MeatFeeder handles feeding carnivores, and a PlantFeeder handles feeding herbivores.
+
+#######################
+

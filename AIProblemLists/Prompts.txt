@@ -1,0 +1,101 @@
+##################################          1          ############################################
+
+I want you to generate problems or real-world scenarios for the highlighted topic
+
+One would have to finish all the problems to be considered on the level of an Experienced Junior Java Developer
+
+Give me a list in .md readible format
+
+I don't mind the list of problems being long, focus on quality and quantity.
+
+When there is more to add type MORE at the end of your response, I will ask you to continue. 
+Tell me when we have reached sufficient ammount of problems, else type MORE
+
+##################################          1.5          ############################################
+
+Your task is to create a list like this for Lambda Expressions.
+
+Start with the very basics of the concept and progressively give problems untill we reach the level of an Experienced Junior Java Developer, barely scratching the level of Mid/Regular Java Developer.
+
+We will be working in a 'MORE' framework. When there is more material to cover and more problems to generate, 
+you type 'MORE' at the end of your message and I will ask you to continue. When we reach the desired level, you simply inform me. 
+Keep in mind that I do appreciate the quantity, making fluent progression of difficulty.
+
+At the end of your message give a brief spoiler regarding what topic we will cover next.
+
+
+
+
+##################################          2          ############################################
+
+Prepare the initial setup for the problem mentioned in the active selection. 
+Create a class with the name of the problem and a main method.
+Create comments to signal the different sections of the solution to the problem. As many as needed. 
+Inside the main method, initialize the data structure or variables as described in the problem statement. 
+Don't provide any hints or solutions for the problem.
+
+
+
+##################################          3          ############################################
+
+I want you to be a reviewer
+
+Write a message you would understand best regarding the solved problem by the user.
+
+I will use it in our other chat when you will have no context and it will be hard for you to judge.
+
+This messages purpose is to bring the context in.
+
+I would like it to include information about what the user did correctly, what he struggled with, what he needs to train more.
+One ask for you. Be ruthless about it. Assume the user can take any critisism and sees it as an opportunity to learn. 
+Without you pointing it out, he cannot fix what he is doing wrong. So point out everything necessary for growth.
+
+
+
+##################################          4          ############################################
+
+Here is the problem I was trying to solve.
+At the bottom is a message left by the reviewer.
+Based on the problem and the message, generate 2 similar problems with consideration of the context, so that I could practise best.
+
+
+##################################          5          ############################################
+
+You will be continuously provided with Java related problems. 
+Your job is to slightly increase the level of the given problems by adding new steps to them. Adjust the level of your steps based on the given problem individually. 
+
+Also respond refining the problem for .md readible view. Respond in a cmd-like window and make suitable adjustment for .md transparency. I will show you an example:
+
+###EXAMPLE###
+## Problem 1: Reading a Text File
+**Problem Statement:** Write a Java program that reads a text file and prints its content to the console.
+
+**Requirements:**
+- Create a text file with some content.
+- Use a `FileReader` to read this file.
+- Print the content of the file to the console.
+###END OF EXAMPLE###
+
+This is NOT a problem for you to work on, but the style to grasp.
+I will be providing you with problems continuously from my next message onwards
+
+
+##################################          6          ############################################
+
+I want you to generate list questions regarding the theory of a concept "Java Generics in Java". 
+Purely theoretical for understanding all the why's and how's, getting a clear view of what's going on backstage.
+
+When there are more questions to give me, regarding the topic, type 'MORE' at the end of your answer and I will ask you to continue. 
+Tell me when we're done.
+
+
+
+
+##################################          7          ############################################
+
+I'm looking to gain an in-depth understanding of Java threads, covering their underlying mechanics, theories, and practical applications. 
+The focus is on comprehending the 'how' and 'why' behind Java threads, transcending basic usage to appreciate their inner workings. 
+I aim to apply this knowledge in a job environment, making informed decisions about when and why to use certain threading techniques. 
+The level of expertise shouldn't matter; the explanation should be thorough enough for a deep, fundamental understanding. 
+I prefer an approach that dives deep, providing clarity on complex concepts and their real-world implications. 
+From now on I will be providing you with certain aspects of Threads I want you to teach me.

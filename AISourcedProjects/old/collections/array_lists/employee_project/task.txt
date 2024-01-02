@@ -1,0 +1,12 @@
+Create a Java class Employee with the following attributes:
+
+id (int)
+name (String)
+department (String)
+Then, write a Java program that does the following:
+
+Create Employees: Instantiate an ArrayList of Employee objects.
+Add Employees: Add at least five employees to the list with varying names and departments.
+Find Employees by Department: Implement a method that takes a department name as input and returns a list of employees in that department.
+Remove an Employee: Implement a method that takes an id and removes the employee with that id from the list.
+Display Employees: Implement a method to display all employees in the list.
