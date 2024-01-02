@@ -1,17 +1,15 @@
 package File_Handling.myProject;
 
 import java.io.*;
-import java.nio.*;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
-import java.nio.file.StandardCopyOption;
+
 
 public class CreateDirectories {
     public static void main(String[] args) {
         
-        //createDirectories("C:\\Users\\macie\\iCloudDrive\\iJava\\Java_Projects\\w3r\\File_Handling\\myProject\\testfolder", 10);
-        copyMainMethod("C:\\Users\\macie\\iCloudDrive\\iJava\\Java_Projects\\w3r\\File_Handling\\myProject\\testfolder\\", 10);
+        createDirectories("C:\\Users\\macie\\iCloudDrive\\iJava\\Java_Projects\\w3r\\Collections\\HashMap", 12);
+        //copyMainMethod("C:\\Users\\macie\\iCloudDrive\\iJava\\Java_Projects\\w3r\\Arrays\\", 79);
     }
 
     public static void createDirectories(String path, int number_of_folders) {
@@ -39,7 +37,8 @@ public class CreateDirectories {
 
         for (int i = 1; i <= howManyDirectories; i++) {
             
-            pathToDirectory = pathToDirectory + "" + i;
+            pathToDirectory = pathToDirectory + "" + i + "\\Main.java";
+            System.out.println(pathToDirectory);
             
             try {
                 Files.copy(Paths.get(pathToMethod), Paths.get(pathToDirectory));

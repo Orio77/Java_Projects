@@ -1,0 +1,34 @@
+Task Description:
+Class 'Bank':
+
+This is your financial fortress. It needs to manage multiple accounts efficiently.
+Methods:
+addAccount(Account account): Like welcoming a new member to the family, but make sure you're not accidentally inviting a duplicate.
+removeAccount(String accountID): Sometimes relationships end. Remove an account safely without leaving any traces.
+deposit(String accountID, double amount): Money comes in, but watch out for those tricky transactions like negative deposits.
+withdraw(String accountID, double amount): Letting money out, but not too much! Prevent overdrafts like you'd avoid a skunk at a picnic.
+transfer(String fromAccountID, String toAccountID, double amount): New method! Move money between accounts like a chess master moving pieces. But remember, no illegal moves allowed.
+Class 'Account':
+
+The personal space for each customer's funds. Handle with care!
+Attributes: Think beyond the basics. Include account ID, customer details, and transaction history.
+Methods:
+deposit(double amount), withdraw(double amount): The bread and butter operations.
+getTransactionHistory(): Like a diary, but for money. Keep track of all transactions, including dates and amounts.
+Exception Handling:
+
+Your code should be as tight as a drum. Handle exceptions like a pro juggler. Think about what can go wrong, like invalid amounts, non-existent accounts, or overdrafts.
+Unit Testing:
+
+Write JUnit tests for your methods. Your code should be as bug-free as a clean kitchen.
+Bonus Challenge - 'InterestCalculator':
+
+Feeling adventurous? Add a feature to calculate interest on accounts. Different accounts can have different interest rates. This is like adding a secret sauce to your recipe!
+Documentation:
+
+Document your code like you're writing a bestseller. Clear, concise, and informative.
+How to Approach:
+Plan Before Coding: Sketch out your classes and methods on paper or a whiteboard.
+Think Security and Efficiency: Always validate inputs and handle exceptions.
+Test as You Go: Don't wait until the end to test. Regular testing saves headaches.
+Research When Stuck: Stuck on how to implement something? A bit of research can open new doors.
