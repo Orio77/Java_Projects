@@ -1,0 +1,20 @@
+1. What is a data structure according to the video?
+2. Why are data structures important?
+3. What is an abstract data type (ADT)?
+4. How does an abstract data type differ from a data structure?
+5. What is the time complexity of an algorithm according to Big O notation?
+6. What does Big O notation care about?
+7. Why do we use Big O notation in computer science?
+8. What does O(1) represent in Big O notation?
+9. What is a dynamic array?
+10. When does resizing of a dynamic array typically occur?
+11. In a dynamic array, what is the time complexity of appending an element?
+12. What is the historical reason for arrays starting at index 0 in computer science?
+13. What does "@SuppressWarnings("unchecked")" do in Java code?
+14. What is a linked list tail typically pointing to?
+15. Why can't a linked list tail have no reference at all?
+16. What is a pointer in a linked list?
+17. Do pointers in a linked list occupy memory?
+18. What is the primary factor that determines the memory usage of a linked list?
+19. In practical terms, how much more memory does a doubly linked list typically occupy compared to a singly linked list with the same number of nodes?
+20. What is the main advantage of using a doubly linked list over a singly linked list?
