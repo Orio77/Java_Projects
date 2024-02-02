@@ -11,7 +11,7 @@ public class Cache {
     }
 
     public void fillCache(Database database) {
-        database.getDatabase().values().stream().filter(data -> data.) // Database contains data's contents and hashed key, not the Data
+        // database.getDatabase().values().stream().filter(data -> data.) // Database contains data's contents and hashed key, not the Data
         // How to access the data's 'isRecentlyUsed'?
     }
 }
