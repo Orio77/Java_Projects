@@ -61,7 +61,7 @@ public class PageRank {
         }
 
         long startTime = System.nanoTime();
-        double[] ranks = pagerank(M);
+        pagerank(M);
         long endTime = System.nanoTime();
 
         long duration = (endTime - startTime);  //divide by 1000000 to get milliseconds.

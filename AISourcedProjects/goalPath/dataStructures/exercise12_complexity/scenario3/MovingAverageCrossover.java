@@ -54,8 +54,7 @@ public class MovingAverageCrossover {
         // Measure the time before the execution
         long startTime = System.nanoTime();
 
-        // Execute the algorithm
-        int[] signals = mac.generateSignals();
+        mac.generateSignals();
 
         // Measure the time after the execution
         long endTime = System.nanoTime();

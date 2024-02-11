@@ -32,4 +32,8 @@ public class Node implements Comparable<Node>{
     public int compareTo(Node node) {
         return this.distance - node.getDistance();
     }
+
+    public String getName() {
+        return name;
+    }
 }

@@ -105,8 +105,8 @@ public class ChattingApp {
         System.out.print("Please enter a number of the chat: ");
         int number = sc.nextInt();
 
-        if (number > 0 && number < conversationBase.get(login).size()) {
-            return conversationBase.get(login).get(number);
+        if (number > 0 && number < conversationBase.get(Integer.parseInt(login)).size()) {
+            return conversationBase.get(Integer.parseInt(login)).get(number);
         }
         return null;
     }
@@ -131,7 +131,7 @@ public class ChattingApp {
 
     private Conversation setCurrentConversation(Conversation conversation, String login) {
         if (conversation == null) {
-            return conversationBase.get(login).getFirst();
+            return conversationBase.get(Integer.parseInt(login)).getFirst();
         }
         else
             return null;

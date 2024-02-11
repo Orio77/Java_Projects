@@ -6,6 +6,7 @@ import java.util.Random;
 public class User {
     private String login;
     private int userId;
+    @SuppressWarnings("unused")
     private String[] userHistory;
     private HashMap<Integer, String> generalHistory;
     private final int HISTORYCAPACITY = 3;

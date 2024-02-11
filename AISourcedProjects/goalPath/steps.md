@@ -1,1 +1,2 @@
 1. Check if all the methods are implemented
+find

@@ -25,7 +25,9 @@ Let's say the first bit (bit 0) controls the power state
 
     public void readFromDevice() {
         int value = device.getRegister();
+        @SuppressWarnings("unused")
         int powerState = value & 1;
+        @SuppressWarnings("unused")
         int speed = (value & 0x0E) >> 1;
     }
 

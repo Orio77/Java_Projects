@@ -7,4 +7,8 @@ public class Device {
     public int getRegister() {
         return register;
     }
+
+    public String getSpecifications() {
+        return specifications;
+    }
 }

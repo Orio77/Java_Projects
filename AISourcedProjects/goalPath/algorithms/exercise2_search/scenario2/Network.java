@@ -7,6 +7,10 @@ import java.util.LinkedList;
 public class Network {
     private ArrayList<User> userBase;
 
+    public ArrayList<User> getUserBase() {
+        return userBase;
+    }
+
     public ArrayList<User> getFriendRecommendations(User user) {
         
         HashSet<User> visited = new HashSet<>();

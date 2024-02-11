@@ -174,4 +174,20 @@ public class BookStore {
             System.out.println("Handled: " + update);
         }
     }
+
+    public LinkedList<Book> getDelivery() {
+        return delivery;
+    }
+    public String getName() {
+        return name;
+    }
+    public Book getRoot() {
+        return root;
+    }
+    public Book[] getTopBooks() {
+        return topBooks;
+    }
+    public LinkedList<String> getUpdates() {
+        return updates;
+    }
 }

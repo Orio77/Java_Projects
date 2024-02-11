@@ -47,8 +47,7 @@ public class Optimization_1 {
         System.out.println("Time taken for retrieval: " + (endTime - startTime) + "ms");
 
         startTime = System.currentTimeMillis();
-        // List<String> allData = example.getAllData();
-        List<String> allData = example.getAllDataOptimized();
+        example.getAllDataOptimized();
         endTime = System.currentTimeMillis();
         System.out.println("Time taken for getting all data: " + (endTime - startTime) + "ms");
     }

@@ -3,7 +3,7 @@ import java.io.IOException;
 // AI Created (I didn't want to wait util I learn this during I/O practise, because creating those folders manually wastes a lot of my time)
 public class CreateDirs {
     public static void main(String[] args) {
-        createExerciseFolders("C:/Users/macie/iCloudDrive/iJava/Java_Projects/AISourcedProjects/goalPath/testFolder", 5);
+        createExerciseFolders("C:/Users/macie/iCloudDrive/iJava/Java_Projects/AISourcedProjects/goalPath/streamAPI", 20);
     }
 
     public static void createExerciseFolders(String destinationPath, int numExercises) {

@@ -132,24 +132,20 @@ class SourceCode {
         long timeElapsed = Duration.between(start, finish).toMillis();  //in millis
         System.out.println("Time elapsed: " + timeElapsed + " ms");
 
-        Instant startSearch = Instant.now();
-        // This part needs optimization
-        // Product foundProduct = findProductByName(products, "product9000");
-        Product foundProduct = findProductByNameOptimized(products, "product9000");
-        Instant finishSearch = Instant.now();
+        Instant.now();
+        findProductByNameOptimized(products, "product9000");
+        Instant.now();
         System.out.println("Time elapsed for finding product by name: " + timeElapsed + " ms");
 
         Instant startCount = Instant.now();
-        // This part needs optimization
-        int count = countProductsWithNameLengthGreaterThan(products, 10);
+        countProductsWithNameLengthGreaterThan(products, 10);
         // int count = countProductsWithNameLengthGreaterThanOptimized(products, 10);
         Instant finishCount = Instant.now();
         long timeElapsedCount = Duration.between(startCount, finishCount).toMillis();  //in millis
         System.out.println("Time elapsed for count: " + timeElapsedCount + " ms");
 
         Instant startMostCommon = Instant.now();
-        // This part needs optimization
-        String mostCommonName = findMostCommonProductName(products);
+        findMostCommonProductName(products);
         Instant finishMostCommon = Instant.now();
         long timeElapsedMostCommon = Duration.between(startMostCommon, finishMostCommon).toMillis();  //in millis
         System.out.println("Time elapsed for finding most common product name: " + timeElapsedMostCommon + " ms");

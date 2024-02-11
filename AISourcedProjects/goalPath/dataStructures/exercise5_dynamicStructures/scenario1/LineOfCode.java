@@ -63,13 +63,13 @@ public class LineOfCode {
     }
 
     public void modify(LineOfCode line) {
-        Scanner sc = new Scanner(System.in);
-
-        System.out.println("Current line: ");
-        System.out.println(line);
-        System.out.print("Please eneter a new line: ");
-        String newLine = sc.nextLine();
-        line.setContent(newLine);
+        try (Scanner sc = new Scanner(System.in)) {
+            System.out.println("Current line: ");
+            System.out.println(line);
+            System.out.print("Please eneter a new line: ");
+            String newLine = sc.nextLine();
+            line.setContent(newLine);
+        }
     }
 
 

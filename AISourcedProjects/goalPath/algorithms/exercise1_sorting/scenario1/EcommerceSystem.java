@@ -13,6 +13,7 @@ public class EcommerceSystem {
     }
 
     public void bubbleSortPrice() {
+        @SuppressWarnings("unused")
         boolean swapped;
         for (int i = 0; i < productsSample.length; i++) {
             swapped = false;

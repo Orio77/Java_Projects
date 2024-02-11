@@ -66,4 +66,17 @@ public class MyAVLTree {
     public void leftRotation() {
         
     }
+
+    public int getKey() {
+        return key;
+    }
+    public Node getLeft() {
+        return left;
+    }
+    public Node getRight() {
+        return right;
+    }
+    public Node getRoot() {
+        return root;
+    }
 }

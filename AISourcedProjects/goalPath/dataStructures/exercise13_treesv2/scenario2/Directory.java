@@ -177,6 +177,7 @@ public class Directory {
         inOrderHelper(root);
     }
 
+    @SuppressWarnings("unused")
     private void preOrderHelper(File file) {
         if (file != null) {
             System.out.println("Value of the file:");
@@ -190,6 +191,7 @@ public class Directory {
         inOrderHelper(root);
     }
 
+    @SuppressWarnings("unused")
     private void postOrderHelper(File file) {
         if (file != null) {
             inOrderHelper(file.getLeft());

@@ -2,7 +2,6 @@ package algorithms.exercise4_graphs.preparation.Dijkstrav2;
 
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.PriorityQueue;
 
@@ -33,6 +32,7 @@ public class Dijkstrav2 {
             for (Node node : currNode.getAdjacentNodes()) {
                 int weight = node.getDistance();
                 // This line is incorrect. It should be the weight of the edge between currNode and node, not node's distance.
+                @SuppressWarnings("unused")
                 int newDistance = visited.get(currNode.getId() + weight);
 
                 // This line is incorrect. It should compare newDistance with node's current distance, not with weight.

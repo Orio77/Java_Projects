@@ -37,6 +37,7 @@ public class EventSimulation {
         }
     }
 
+    @SuppressWarnings("unused")
     private void processEventOptimized(Event event) {
 
         String type = events.get(event);

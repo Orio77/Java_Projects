@@ -14,6 +14,7 @@ public class DemoClass {
         DemoClass.instances = instances;
     }
 
+    @SuppressWarnings("deprecation")
     @Override
     protected void finalize() throws Throwable {
         super.finalize();
